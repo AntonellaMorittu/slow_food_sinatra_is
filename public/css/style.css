@@ -10,11 +10,20 @@
 }
 
 .navbar-dark .navbar-brand {
-  color: red;
+  color: #B62A1D;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
+
+.navbar-light .navbar-toggler-icon{
+  background-color: #FEF5E7;
+}
+
+.navbar-light .navbar-nav .active{
+  text-color: #FEF5E7;
+}
+
 body {
 background-image: url(../img/table.jpg);
 }
@@ -47,19 +56,12 @@ font-size: 25px;
 color: white;
 }
 
-.navbar-light .navbar-toggler-icon{
-  background-color: #FEF5E7;
-}
-
-.navbar-light .navbar-nav .active{
-  text-color: #FEF5E7;
-}
-
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   color: #B62A1D;
   font-family: 'Sancreek', cursive;
   font-size: 24px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 button, input {
@@ -74,10 +76,20 @@ a:visited {
 
 p {
   font-size: 30px;
-  color: black;
+  color: gold;
   font-family: 'Sancreek', cursive;
 }
 
 * {
   text-align: center;
+}
+
+.footer {
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   background-color: #B62A1D;
+   color: white;
+   text-align: center;
+   padding: 10 0 0 10;
 }
